@@ -24,8 +24,6 @@ services:
     container_name: Backend_api
     hostname: backend_api
     restart: always
-    depends_on:
-      - notification
     env_file:
       - .env
     volumes:
